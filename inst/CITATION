@@ -1,0 +1,27 @@
+citHeader("To cite CR2 in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Using cluster robust standard errors when analyzing group randomized trials with few clusters",
+  author   = c(person("Francis",  "Huang"), person("Xintong", "Li")),
+  journal  = "Behavior Research Methods",
+  year     = "2021",
+  url      = "https://link.springer.com/epdf/10.3758/s13428-021-01627-0?sharing_token=eIiUEDO3RA7xQuhBbPCeDZAH0g46feNdnc402WrhzypnhGrDXEDh-Uq8KAb789impq-2g25kEJJoCmKwEsXVbXuLkfLHza-JzNwtSCVJlJmHuydDfYKExT_sbRuNeHthDaXyIsjKk9tCd9jOuK4Px2WocvDFoVOyuV-5G7LSq_U%3D",
+  textVersion  =
+  paste("Huang F., & Li, X. (2021).",
+        "Using cluster robust standard errors when analyzing group randomized trials with few clusters.",
+        "Behavior Research Methods.",
+        "Retrieved from https://rdcu.be/cxyl5.")
+)
+
+bibentry(bibtype = "Manual",
+         title        = "CR2",
+         author       = personList(as.person("Francis Huang"),
+                                   as.person("Bixi Zhang")),
+         note = "R package version 0.10",
+    url = "https://github.com/flh3/CR2",
+      textVersion  =
+  paste("Huang F., & Zhang, B. (2022).",
+        "CR2: Cluster robust standard errors for few clusters.",
+        "https://github.com/flh3/CR2")
+        )
